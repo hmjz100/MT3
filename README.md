@@ -8,8 +8,9 @@ app_file: app.py
 pinned: true
 duplicated_from: oniati/mrt
 ---
-# MT3
-多任务多音轨音乐转录  
+# MT3 多任务多音轨音乐转录
+
+Demo：https://huggingface.co/spaces/Hmjz100/MT3
 ---
 # Configuration
 `title`: _string_  
