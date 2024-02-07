@@ -10,8 +10,6 @@ duplicated_from: oniati/mrt
 ---
 # MT3
 多任务多音轨音乐转录  
-HuggingFace打不开？试试用 [hmjz100/Super-Nginx](https://github.com/hmjz100/Super-Nginx) 吧！
-
 ---
 # Configuration
 `title`: _string_  
