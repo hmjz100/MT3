@@ -319,6 +319,7 @@ with gr.Blocks(title="MT3", theme=gr.themes.Soft()) as demo:
 		gr.Examples(
 			examples=[['早安大森林.mp3'], ['canon.flac'], ['download.wav']],
 			label="示例",
+            fn=inference,
 			inputs=audio_input,
             outputs=midi_output,
             cache_examples=True
