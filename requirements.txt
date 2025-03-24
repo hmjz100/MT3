@@ -12,5 +12,6 @@ scipy
 seqio @ git+https://github.com/google/seqio#egg=seqio
 t5 
 t5x @ git+https://github.com/google-research/t5x#egg=t5x
-tensorflow_cpu
+tensorflow_cpu==2.18.0
+tensorflow-text==2.18.0
 tensorflow-datasets 
