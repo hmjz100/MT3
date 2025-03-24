@@ -317,9 +317,11 @@ with gr.Blocks(title="MT3", theme=gr.themes.Soft()) as demo:
 	
 	with gr.Row():
 		gr.Examples(
-			examples=[['canon.flac'], ['download.wav']],
+			examples=[['早安大森林.mp3'], ['canon.flac'], ['download.wav']],
 			label="示例",
-			inputs=audio_input
+			inputs=audio_input,
+            outputs=midi_output,
+            cache_examples=True
 		)
 	
 	with gr.Row():
